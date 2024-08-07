@@ -106,6 +106,33 @@ span{
 }
 
 
+.main-section{
+    margin-top: 40px;
+}
+.main-section-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.card-section{
+    width: 270px;
+    height: 270px;
+    padding: 50px 30px;
+    border-radius: 13px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(240, 255, 240);
+}
+.card-section img{
+    width: 80px;
+    height: 83px;
+    margin-bottom: 20px;
+}
+#white-card{
+    border-radius: 13px;
+    box-shadow: 11px 12px 18px 5px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 255, 255);
+}
+
 
 
 @media screen and (max-width: 576px) {
@@ -119,6 +146,7 @@ span{
     }
     .navbar-main-section{
         width: 441px;
+        height: 900px;
         margin: 0 auto;
         background-color: rgb(240, 255, 240);
     }
@@ -146,6 +174,15 @@ span{
     .banner-image img{
         width: 400px;
         height: 346px;
+    }
+    .main-section-container{
+        margin: 0 auto;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 15px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 100px;
     }
 
 
