@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+
+}
+span{
+    color: rgb(33, 181, 115);
+}
+.container{
+    width: 1265px;
+    margin: 0 auto;
+    /* margin-top: 35px; */
+}
+.primary-btn{
+    width: 153px;
+    height: 43px;
+    border-radius: 33px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(33, 181, 115);
+
+}
+
+
+
+.navbar-main-section{
+    height: 576px;
+    background-color: rgb(240, 255, 240);
+}
+.navbar-main{
+    width: 1260px;
+    margin: 0 auto;
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-main img{
+    width: 198px;
+    height: 59px;
+}
+.navbar-links ul{
+    display: flex;
+    gap: 45px;
+    text-align: center;
+    align-items: center;
+}
+.nav-btn{
+    width: 104px;
+    height: 43px;
+    border-radius: 33px;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(33, 181, 115);
+}
+.banner-section{
+    display: flex;
+    justify-content: space-around;
+}
+.banner-section-content{
+    margin-top: 55px;
+}
+#banner-ask{
+    width: 208px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(253, 81, 26);
+}
+.banner-section-content h1{
+    width: 405px;
+    height: 140px;
+    font-weight: 700;
+    font-size: 48px;
+    color: rgb(0, 0, 0);
+
+}
+.banner-section-content p{
+    width: 503px;
+    height: 70px;
+    /* border: 1px solid red; */
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(108, 107, 107);
+}
+.banner-image img{
+    width: 554px;
+    height: 346px;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+
+
+    header{
+        /* background-color: #000; */
+    }
+    .container{
+        width: 451px;
+    }
+    .navbar-main-section{
+        width: 441px;
+        margin: 0 auto;
+        background-color: rgb(240, 255, 240);
+    }
+    .navbar-main{
+        width: 361px;
+        flex-direction: column;
+    }
+    .banner-section{
+        flex-direction: column;
+    }
+    .navbar-links{
+        display: none;
+    }
+    .navbar-main img{
+        width: 108px;
+        height: 59px;
+    }
+    .banner-section-content{
+        width: 205px;
+    }
+    .banner-section-content p{
+        width: 305px;
+        height: 100px;
+    }
+    .banner-image img{
+        width: 400px;
+        height: 346px;
+    }
+
+
+}
